@@ -11,6 +11,7 @@ def generating_random_password(length : int, use_digits : bool, use_letters : bo
     :param length: The length of the password to be generated
     :param use_digits: Whether the password is generated with digits
     :param use_letters: Whether the password is generated with letters
+    :param use_punctuations : whether the password is generated with special characters
     """
     # we give the condition below, so as to avoid losing time
     if not (use_digits or use_letters or use_punctuations):
